@@ -1,0 +1,25 @@
+.parallax{
+    background-image: url('../../assets/2615267.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+.content{
+    height: 200px;
+}
+
+.float-login{
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 770px){
+    .float-login{
+        position: absolute;
+        left: 60%; 
+    }
+}

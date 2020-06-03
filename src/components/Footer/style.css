@@ -1,0 +1,46 @@
+.container-footer{
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+.menu-footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu-footer li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.menu-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-footer div{
+    
+}
+
+.menu-footer div:hover{
+    color: gold;
+}
+
+.container-footer p{
+    padding: 10px 0;
+}
+
+.menu-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-icons img{
+    padding: 5px 5px;
+    cursor: pointer;
+}
